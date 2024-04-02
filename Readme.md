@@ -1,4 +1,9 @@
-								
+
+### Alvaro Carrillo Quesada---fc59382
+### Roberto Arechavala Puertas---fc61272
+### Pablo Anel Rancaño---fc61271
+
+
 # Tintolmarket
 
 ## Descripción
@@ -64,6 +69,4 @@ Tambien si el cliente es nuevo se le crea un directorio especifico con su UserID
 
 
 
-###Alvaro Carrillo Quesada---fc59382
-###Roberto Arechavala Puertas---fc61272
-###Pablo Anel Rancaño---fc61271
+
