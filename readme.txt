@@ -1,24 +1,37 @@
-									#Proyecto 1 Fase 2
+								
+# Tintolmarket
 
+## Descripción
 
-###Alvaro Carrillo Quesada---fc59382
-###Roberto Arechavala Puertas---fc61272
-###Pablo Anel Rancaño---fc61271
+"Tintolmarket" es una solución innovadora en el ámbito del comercio electrónico, específicamente diseñada para la comercialización de vinos. Esta aplicación Java aprovecha las ventajas de una arquitectura cliente-servidor segura, incorporando tecnologías de criptografía y blockchain para garantizar la protección de la comunicación y la integridad de los datos almacenados. Con "Tintolmarket", los usuarios pueden navegar por un catálogo detallado de vinos, realizar transacciones seguras y disfrutar de una experiencia personalizada al visualizar y comprar productos. A pesar de los desafíos enfrentados en la integridad de los datos a través de blockchain, el proyecto se distingue por su compromiso con la seguridad y la creación de una experiencia de usuario excepcional.
 
-"Tintolmarket" es una aplicación Java avanzada de comercio electrónico diseñada para la gestión y venta de vinos, implementando una arquitectura cliente-servidor segura. Utiliza criptografía y tecnología blockchain para asegurar la comunicación y la integridad de los datos, respectivamente. Los usuarios pueden explorar un catálogo de vinos detallado, realizar compras, y visualizar imágenes de productos, todo dentro de un entorno seguro. A pesar de enfrentar desafíos en la integridad de los datos almacenados en blockchain, el proyecto destaca por su enfoque en la seguridad y una experiencia de usuario personalizada. "Tintolmarket" representa un esfuerzo tecnológico notable en el ámbito del comercio electrónico especializado.
+## Contenido del Proyecto
 
+El proyecto contiene los siguientes directorios y archivos esenciales para su funcionamiento:
 
-En el zip , tenemos desde un inicio los siguientes archivos y directorios:
+### Directorios
 
-Directorio KSClients --> guarda las keystores de los clientes
+- **KSClients:** Almacena las keystores de los clientes.
 
-Archivos:
-		-certServer.cer
-		-keystore.client
-		-truststore.client
-		-Tintolmarket.java
-		-TintolmarketServer.java
+### Archivos
 
+- `certServer.cer`: Certificado del servidor.
+- `keystore.client`: Keystore para el cliente.
+- `truststore.client`: Truststore para el cliente.
+- `Tintolmarket.java`: Código fuente del cliente.
+- `TintolmarketServer.java`: Código fuente del servidor.
+
+### Estructura de Archivos Generados al Ejecutar
+
+- **BlockChainStore:** Directorio para almacenar los archivos de blockchain.
+- **GalleryForServer:** Contiene las imágenes de los vinos añadidos al catálogo.
+- `catalogue.txt`: Catálogo de vinos.
+- `sellers.txt`: Información de vendedores y productos.
+- `users_saldo.txt`: Saldos de los usuarios.
+- `params_store.txt`: Parámetros para descifrado.
+- `users.cif`: Información cifrada de los usuarios.
+
+## Instrucciones de Instalación
 
 Para ejecutar el programa primero debemos compilar ambos ficheros:
 	- javac Tintolmarket.java
@@ -49,7 +62,8 @@ Al ejecutar por primera vez un cliente, si nunca antes habia sido ejecutado se c
 
 Tambien si el cliente es nuevo se le crea un directorio especifico con su UserID que en el caso de que el cliente hago un view , contendran la imagen del vino.
 
-No hemos conseguido hacer el mantenimiento de la integridad tanto de los blockchains como de los archivos.Lo dejamos comentado en el codigo, siempre nos sale hash invalido.
 
 
-
+###Alvaro Carrillo Quesada---fc59382
+###Roberto Arechavala Puertas---fc61272
+###Pablo Anel Rancaño---fc61271
